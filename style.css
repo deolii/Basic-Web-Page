@@ -1,0 +1,90 @@
+
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../IMG/pexel.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+
+section#content{
+    height: 100vh;
+    padding-top: 20vh;
+    text-align: center;
+}
+
+section#content h1{
+    font-size: 40px;
+    color: #2771D0;
+}
+
+section#content > p{
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+}
+
+section#content div input{
+    padding: 5px;
+    width: 30%;
+    border-radius: 10px 0px 0px 10px;
+    border: 0;
+    box-shadow: 1px 1px 1px 1px #ccc;
+
+}
+
+section#content div button{
+    padding: 5px 20px 7.6px 20px;
+    border-radius: 0px 10px 10px 0px;
+    border: 0;
+    background-color: #2771D0;
+    color: #fff;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+section#content div button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: 1s all;
+}
+
+#footer{
+    background: #266FCC;
+    width: 100%;
+    height: 35px;
+    bottom: 0px;
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 60px;
+    position: fixed;
+    }
+
+nav.main-nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 10px;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+nav.main-nav ul li a.active {
+    color:blueviolet;
+}
+
+nav.main-nav ul li a:hover {
+    color: #000;
+    font-size: 19px;}
+
+
